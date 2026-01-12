@@ -5,12 +5,12 @@ function Header() {
     <header className="border-b border-gray-100 bg-white/80 backdrop-blur-xl sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link to="/" className="text-xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-          TouchPointPlus
+          Vindium
         </Link>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-700">
           <Link to="/platform" className="hover:text-purple-600 transition-colors">Platform</Link>
           <Link to="/communications" className="hover:text-purple-600 transition-colors">Communications</Link>
-          <Link to="/portal" className="hover:text-purple-600 transition-colors">Client Portal</Link>
+          <Link to="/portal" className="hover:text-purple-600 transition-colors">Patient Portal</Link>
           <Link to="/privacy" className="hover:text-purple-600 transition-colors">Privacy</Link>
           <Link to="/terms" className="hover:text-purple-600 transition-colors">Terms</Link>
         </nav>
@@ -37,10 +37,10 @@ function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="text-lg font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent mb-3">
-              TouchPointPlus
+              Vindium
             </div>
             <p className="text-sm text-gray-600 leading-relaxed">
-              Client management and engagement platform for real estate teams.
+              Patient lead management and engagement platform for dental practices.
             </p>
           </div>
           <div>
@@ -48,7 +48,7 @@ function Footer() {
             <div className="space-y-2 text-sm text-gray-600">
               <Link to="/platform" className="block hover:text-purple-600 transition-colors">Platform</Link>
               <Link to="/communications" className="block hover:text-purple-600 transition-colors">Communications</Link>
-              <Link to="/portal" className="block hover:text-purple-600 transition-colors">Client Portal</Link>
+              <Link to="/portal" className="block hover:text-purple-600 transition-colors">Patient Portal</Link>
             </div>
           </div>
           <div>
@@ -63,14 +63,14 @@ function Footer() {
             <div className="text-sm font-semibold text-gray-900 mb-3">Contact</div>
             <div className="space-y-2 text-sm text-gray-600">
               <div>1940 Haste St, Berkeley, CA 94704 #B</div>
-              <div>hello@touchpoint.plus</div>
+              <div>hello@vindium.com</div>
               <div>(310) 907-5746</div>
             </div>
           </div>
         </div>
         <div className="pt-8 border-t border-gray-200 text-sm text-gray-600">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <div>© {new Date().getFullYear()} TouchPointPlus, LLC. All rights reserved.</div>
+            <div>© {new Date().getFullYear()} Vindium, LLC. All rights reserved.</div>
             <div className="text-xs text-gray-500">
               Built for compliance and reliability
             </div>
@@ -90,15 +90,15 @@ function Home() {
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/60 backdrop-blur-sm rounded-full text-sm font-medium text-purple-700 mb-6 border border-purple-100">
               <span className="w-2 h-2 bg-purple-600 rounded-full animate-pulse"></span>
-              Client Relationship Platform
+              Dental Lead Management Platform
             </div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-gray-900 mb-6">
-              The Client Platform Built for{' '}
-              <span className="bg-gradient-to-r from-purple-600 via-blue-600 to-cyan-600 bg-clip-text text-transparent">Real Estate</span>
+              The Lead Platform Built for{' '}
+              <span className="bg-gradient-to-r from-purple-600 via-blue-600 to-cyan-600 bg-clip-text text-transparent">Dental Practices</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-10 leading-relaxed max-w-3xl mx-auto">
-              Manage clients, track interactions, automate communications, and analyze engagement—all in one place. 
-              Built specifically for real estate teams who need clarity and control.
+              Capture leads, nurture patients, automate appointment reminders, and grow your practice—all in one place. 
+              Built specifically for dental practices who want to fill more chairs.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link 
@@ -111,7 +111,7 @@ function Home() {
                 to="/portal" 
                 className="px-8 py-4 text-base font-semibold text-gray-900 bg-white border-2 border-gray-200 rounded-lg hover:border-purple-300 hover:shadow-lg transition-all duration-200"
               >
-                View Client Portal
+                View Patient Portal
               </Link>
             </div>
           </div>
@@ -122,10 +122,10 @@ function Home() {
       <section className="max-w-7xl mx-auto px-6 py-20">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Complete Client Management
+            Complete Patient Lead Management
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Everything you need to manage client relationships, from first contact to closing and beyond.
+            Everything you need to capture, nurture, and convert leads into loyal patients for your dental practice.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
@@ -135,9 +135,9 @@ function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
               </svg>
             </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-3">Client Database</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-3">Patient Database</h3>
             <p className="text-gray-600 leading-relaxed">
-              Centralized contact management with full interaction history, preferences, and custom fields. Search, filter, and segment your client base instantly.
+              Centralized patient management with full treatment history, insurance info, and preferences. Search, filter, and segment your patient base instantly.
             </p>
           </div>
           <div className="p-8 bg-white rounded-2xl border border-gray-100 hover:border-purple-200 hover:shadow-xl transition-all duration-300">
@@ -146,9 +146,9 @@ function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
               </svg>
             </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-3">Engagement Analytics</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-3">Lead Tracking</h3>
             <p className="text-gray-600 leading-relaxed">
-              Track every touchpoint with detailed analytics. See response rates, communication patterns, and identify your most engaged clients at a glance.
+              Track every lead from first inquiry to booked appointment. See conversion rates, response times, and identify which marketing channels drive the most new patients.
             </p>
           </div>
           <div className="p-8 bg-white rounded-2xl border border-gray-100 hover:border-purple-200 hover:shadow-xl transition-all duration-300">
@@ -157,9 +157,9 @@ function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-3">Automated Workflows</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-3">Automated Reminders</h3>
             <p className="text-gray-600 leading-relaxed">
-              Set up appointment reminders, follow-up sequences, and status updates that run automatically. Your clients stay informed without manual effort.
+              Set up appointment reminders, recall campaigns, and follow-up sequences that run automatically. Reduce no-shows and keep chairs filled.
             </p>
           </div>
         </div>
@@ -178,14 +178,14 @@ function Home() {
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { name: 'Contact Management', desc: 'Comprehensive client profiles' },
-              { name: 'Activity Timeline', desc: 'Complete interaction history' },
-              { name: 'Automated Messaging', desc: 'Smart communication workflows' },
-              { name: 'Client Segmentation', desc: 'Group and target audiences' },
-              { name: 'Engagement Scoring', desc: 'Identify active vs. cold leads' },
-              { name: 'Reporting Dashboard', desc: 'Real-time performance metrics' },
-              { name: 'Client Portal Access', desc: 'Self-service for clients' },
-              { name: 'Compliance Tracking', desc: 'Automated consent management' }
+              { name: 'Patient Management', desc: 'Comprehensive patient profiles' },
+              { name: 'Lead Pipeline', desc: 'Track inquiries to appointments' },
+              { name: 'Automated Messaging', desc: 'Reminders & recall campaigns' },
+              { name: 'Patient Segmentation', desc: 'Target by treatment needs' },
+              { name: 'Lead Scoring', desc: 'Prioritize high-intent prospects' },
+              { name: 'Reporting Dashboard', desc: 'Chair fill rates & revenue' },
+              { name: 'Patient Portal', desc: 'Online booking & forms' },
+              { name: 'HIPAA Compliance', desc: 'Secure patient data handling' }
             ].map((feature, i) => (
               <div key={i} className="p-6 bg-white rounded-xl border border-gray-100">
                 <div className="text-base font-semibold text-gray-900 mb-2">{feature.name}</div>
@@ -201,11 +201,11 @@ function Home() {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Keep Clients in the Loop
+              Keep Patients Coming Back
             </h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              TouchPointPlus automatically sends the messages your clients need—appointment confirmations, 
-              service updates, and important notices. Set it up once, and your communication runs on autopilot.
+              Vindium automatically sends the messages your patients need—appointment confirmations, 
+              recall reminders, and treatment follow-ups. Set it up once, and your communication runs on autopilot.
             </p>
             <div className="space-y-6">
               <div className="flex gap-4">
@@ -216,7 +216,7 @@ function Home() {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900 mb-1">Appointment Reminders</div>
-                  <div className="text-gray-600">Reduce no-shows with timely notifications sent at the optimal moment</div>
+                  <div className="text-gray-600">Reduce no-shows by up to 40% with timely SMS and email reminders</div>
                 </div>
               </div>
               <div className="flex gap-4">
@@ -226,8 +226,8 @@ function Home() {
                   </svg>
                 </div>
                 <div>
-                  <div className="font-semibold text-gray-900 mb-1">Service Updates</div>
-                  <div className="text-gray-600">Keep clients informed about project milestones and next steps</div>
+                  <div className="font-semibold text-gray-900 mb-1">Recall Campaigns</div>
+                  <div className="text-gray-600">Automated 6-month cleaning reminders and overdue patient outreach</div>
                 </div>
               </div>
               <div className="flex gap-4">
@@ -237,8 +237,8 @@ function Home() {
                   </svg>
                 </div>
                 <div>
-                  <div className="font-semibold text-gray-900 mb-1">Billing Notifications</div>
-                  <div className="text-gray-600">Automated invoice and payment confirmations with complete records</div>
+                  <div className="font-semibold text-gray-900 mb-1">Treatment Follow-ups</div>
+                  <div className="text-gray-600">Post-procedure check-ins and treatment plan reminders</div>
                 </div>
               </div>
             </div>
@@ -247,17 +247,17 @@ function Home() {
             <div className="text-sm font-semibold text-purple-900 mb-4">Sample Messages</div>
             <div className="space-y-4">
               <div className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
-                <div className="text-sm text-gray-900">"Hello Sarah, this is a reminder of your appointment with Agent John on Jan 15 at 2:00 PM."</div>
+                <div className="text-sm text-gray-900">"Hi Sarah! This is a reminder of your cleaning appointment with Dr. Miller on Jan 15 at 2:00 PM. Reply C to confirm."</div>
               </div>
               <div className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
-                <div className="text-sm text-gray-900">"Your service request has been received. Our team will notify you once it is completed."</div>
+                <div className="text-sm text-gray-900">"It's been 6 months since your last cleaning! Call us at (555) 123-4567 or reply BOOK to schedule your next visit."</div>
               </div>
               <div className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
-                <div className="text-sm text-gray-900">"Confirmation: Invoice #12345 has been processed and is now available in your portal."</div>
+                <div className="text-sm text-gray-900">"Hi Sarah, how are you feeling after your procedure yesterday? Reply if you have any questions for Dr. Miller."</div>
               </div>
             </div>
             <div className="mt-6 text-xs text-gray-600">
-              All messages include opt-out instructions and maintain TCPA compliance.
+              All messages include opt-out instructions and maintain TCPA/HIPAA compliance.
             </div>
           </div>
         </div>
@@ -270,7 +270,7 @@ function Home() {
             Ready to Get Started?
           </h2>
           <p className="text-xl text-white/90 mb-10">
-            Join real estate teams who keep clients informed without the hassle.
+            Join dental practices who fill more chairs and grow their patient base effortlessly.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link 
@@ -300,8 +300,8 @@ function Platform() {
           The Platform
         </h1>
         <p className="text-xl text-gray-600 mb-12 leading-relaxed">
-          TouchPointPlus is your command center for client relationships. Track every interaction, 
-          analyze engagement patterns, and automate communication—all from one unified dashboard.
+          Vindium is your command center for patient leads and relationships. Track every inquiry, 
+          nurture prospects, and automate patient communication—all from one unified dashboard.
         </p>
       </div>
       
@@ -310,47 +310,47 @@ function Platform() {
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Core Modules</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="p-6 bg-white rounded-xl border border-gray-200">
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Client Relationship Manager</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Patient & Lead Manager</h3>
               <p className="text-gray-600 mb-4">
-                Centralized database for all client information with full history tracking and custom fields.
+                Centralized database for all patient and lead information with full history tracking.
               </p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Contact profiles with custom data</li>
-                <li>• Interaction timeline view</li>
-                <li>• Smart tagging and segmentation</li>
+                <li>• Patient profiles with treatment history</li>
+                <li>• Lead source tracking</li>
+                <li>• Insurance and payment info</li>
               </ul>
             </div>
             <div className="p-6 bg-white rounded-xl border border-gray-200">
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Analytics & Reporting</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Practice Analytics</h3>
               <p className="text-gray-600 mb-4">
-                Track performance metrics, engagement trends, and client behavior patterns over time.
+                Track lead conversion, chair fill rates, and patient retention over time.
               </p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Engagement dashboards</li>
-                <li>• Response rate analytics</li>
-                <li>• Custom report builder</li>
+                <li>• Lead-to-patient conversion</li>
+                <li>• No-show rate tracking</li>
+                <li>• Revenue per patient metrics</li>
               </ul>
             </div>
             <div className="p-6 bg-white rounded-xl border border-gray-200">
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Communication Automation</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Automated Outreach</h3>
               <p className="text-gray-600 mb-4">
-                Set up workflows for appointment reminders, follow-ups, and status updates.
+                Set up workflows for appointment reminders, recalls, and lead nurturing.
               </p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Trigger-based messaging</li>
-                <li>• Template library</li>
-                <li>• Schedule management</li>
+                <li>• Appointment reminders</li>
+                <li>• Recall campaigns</li>
+                <li>• New lead follow-up sequences</li>
               </ul>
             </div>
             <div className="p-6 bg-white rounded-xl border border-gray-200">
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Compliance & Security</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">HIPAA Compliance</h3>
               <p className="text-gray-600 mb-4">
-                Automated consent tracking, audit logs, and enterprise-grade data protection.
+                Healthcare-grade security with automated consent tracking and audit logs.
               </p>
               <ul className="space-y-2 text-sm text-gray-600">
-                <li>• TCPA compliance built-in</li>
-                <li>• Encrypted data storage</li>
-                <li>• Activity audit trails</li>
+                <li>• HIPAA-compliant messaging</li>
+                <li>• Encrypted patient data</li>
+                <li>• BAA agreements available</li>
               </ul>
             </div>
           </div>
@@ -360,30 +360,30 @@ function Platform() {
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Data You Can Act On</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <div className="text-sm font-semibold text-purple-600 mb-3">Client Insights</div>
+              <div className="text-sm font-semibold text-purple-600 mb-3">Patient Insights</div>
               <ul className="space-y-2 text-sm text-gray-700">
-                <li>Engagement scoring by client</li>
-                <li>Communication preference tracking</li>
-                <li>Response pattern analysis</li>
-                <li>Lead temperature indicators</li>
+                <li>Patient lifetime value</li>
+                <li>Treatment acceptance rates</li>
+                <li>Recall compliance tracking</li>
+                <li>Referral source analysis</li>
               </ul>
             </div>
             <div>
-              <div className="text-sm font-semibold text-blue-600 mb-3">Performance Metrics</div>
+              <div className="text-sm font-semibold text-blue-600 mb-3">Lead Performance</div>
               <ul className="space-y-2 text-sm text-gray-700">
-                <li>Message delivery rates</li>
-                <li>Open and response rates</li>
-                <li>Time-to-response tracking</li>
-                <li>Campaign effectiveness</li>
+                <li>Lead source ROI</li>
+                <li>Response time metrics</li>
+                <li>Conversion rates by channel</li>
+                <li>Cost per new patient</li>
               </ul>
             </div>
             <div>
-              <div className="text-sm font-semibold text-cyan-600 mb-3">Workflow Analytics</div>
+              <div className="text-sm font-semibold text-cyan-600 mb-3">Practice Metrics</div>
               <ul className="space-y-2 text-sm text-gray-700">
-                <li>Automation performance</li>
-                <li>Drop-off point identification</li>
-                <li>Conversion funnel tracking</li>
-                <li>ROI measurement</li>
+                <li>Chair utilization rates</li>
+                <li>No-show percentages</li>
+                <li>Reactivation success</li>
+                <li>Revenue forecasting</li>
               </ul>
             </div>
           </div>
@@ -400,7 +400,7 @@ function Communications() {
         How We Communicate
       </h1>
       <p className="text-xl text-gray-600 mb-12 leading-relaxed">
-        TouchPointPlus provides compliant, service-oriented communications for real estate teams. 
+        Vindium provides compliant, HIPAA-secure communications for dental practices. 
         Every message is transactional, consent-based, and fully auditable.
       </p>
 
@@ -408,32 +408,32 @@ function Communications() {
         <div>
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Message Types</h2>
           <p className="text-gray-600 mb-6">
-            We deliver appointment reminders, billing confirmations, and project status updates to clients 
-            who have explicitly opted in via our website or client forms.
+            We deliver appointment reminders, recall notifications, and treatment follow-ups to patients 
+            who have explicitly opted in via your practice's intake forms.
           </p>
           <div className="space-y-4">
             <div className="p-6 bg-gray-50 rounded-xl border border-gray-200">
               <div className="text-sm font-semibold text-gray-900 mb-2">Appointment Reminders</div>
               <div className="text-sm text-gray-700 font-mono bg-white p-4 rounded border border-gray-200">
-                "Hello [First Name], this is a reminder of your appointment with [Agent Name] on [Date] at [Time]."
+                "Hi [First Name], this is a reminder of your appointment with Dr. [Doctor Name] on [Date] at [Time]. Reply C to confirm."
               </div>
             </div>
             <div className="p-6 bg-gray-50 rounded-xl border border-gray-200">
-              <div className="text-sm font-semibold text-gray-900 mb-2">Service Status Updates</div>
+              <div className="text-sm font-semibold text-gray-900 mb-2">Recall Reminders</div>
               <div className="text-sm text-gray-700 font-mono bg-white p-4 rounded border border-gray-200">
-                "Your service request has been received. Our team will notify you once it is completed."
+                "Hi [First Name], it's time for your 6-month cleaning! Call us at [Phone] or reply BOOK to schedule."
               </div>
             </div>
             <div className="p-6 bg-gray-50 rounded-xl border border-gray-200">
-              <div className="text-sm font-semibold text-gray-900 mb-2">Billing Confirmations</div>
+              <div className="text-sm font-semibold text-gray-900 mb-2">Post-Treatment Follow-ups</div>
               <div className="text-sm text-gray-700 font-mono bg-white p-4 rounded border border-gray-200">
-                "Confirmation: Invoice #[Invoice Number] has been processed."
+                "Hi [First Name], how are you feeling after your procedure? Reply if you have any questions."
               </div>
             </div>
             <div className="p-6 bg-gray-50 rounded-xl border border-gray-200">
-              <div className="text-sm font-semibold text-gray-900 mb-2">Account Notifications</div>
+              <div className="text-sm font-semibold text-gray-900 mb-2">New Lead Response</div>
               <div className="text-sm text-gray-700 font-mono bg-white p-4 rounded border border-gray-200">
-                "Notice: Your account settings were updated on [Date]. Contact support if this wasn't you."
+                "Thanks for reaching out to [Practice Name]! We'd love to help. What time works for a quick call?"
               </div>
             </div>
           </div>
@@ -442,9 +442,9 @@ function Communications() {
         <div className="bg-blue-50 rounded-2xl p-8 border border-blue-200">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Opt-In Process</h2>
           <p className="text-gray-700 mb-6">
-            Clients explicitly opt in via our web signup form with clear consent language, or by providing 
-            their phone number directly to a TouchPointPlus representative. We store opt-in timestamps and 
-            maintain comprehensive audit logs for each phone number.
+            Patients explicitly opt in via your practice's intake forms with clear consent language, or by providing 
+            their phone number directly at check-in. We store opt-in timestamps and 
+            maintain comprehensive HIPAA-compliant audit logs for each patient.
           </p>
           <div className="bg-white rounded-lg p-6 border border-blue-200">
             <div className="text-sm font-semibold text-gray-900 mb-3">Consent Management</div>
@@ -463,15 +463,15 @@ function Communications() {
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Compliance Standards</h2>
           <div className="prose prose-gray max-w-none">
             <p className="text-gray-700 leading-relaxed">
-              TouchPointPlus maintains full TCPA compliance for all SMS communications. Our platform includes:
+              Vindium maintains full TCPA and HIPAA compliance for all patient communications. Our platform includes:
             </p>
             <ul className="space-y-2 text-gray-700">
               <li>Written consent before any messages are sent</li>
-              <li>Clear identification of sender in every message</li>
+              <li>HIPAA-compliant message content (no PHI in SMS)</li>
               <li>Easy opt-out mechanism (reply STOP)</li>
-              <li>Comprehensive message and consent logging</li>
-              <li>Regular compliance audits and reviews</li>
-              <li>Data retention policies aligned with regulatory requirements</li>
+              <li>Encrypted data storage and transmission</li>
+              <li>Business Associate Agreements (BAA) available</li>
+              <li>Regular compliance audits and HIPAA training</li>
             </ul>
           </div>
         </div>
@@ -479,8 +479,8 @@ function Communications() {
         <div className="bg-purple-50 rounded-2xl p-8 border border-purple-200">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Message Frequency</h2>
           <p className="text-gray-700">
-            Message frequency varies based on service activity. Clients typically receive transactional 
-            notifications only when relevant to their account or services. Non-promotional messages only.
+            Message frequency varies based on appointment schedule and recall needs. Patients typically receive 
+            appointment reminders, recall notifications, and treatment follow-ups. Non-promotional messages only.
           </p>
         </div>
       </div>
@@ -493,10 +493,10 @@ function Portal() {
     <div className="max-w-7xl mx-auto px-6 py-20">
       <div className="max-w-3xl mx-auto text-center mb-16">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-          Client Portal
+          Patient Portal
         </h1>
         <p className="text-xl text-gray-600 leading-relaxed">
-          Secure access to your communication preferences, message history, and account settings.
+          Secure access for patients to book appointments, complete forms, and manage their preferences.
         </p>
       </div>
 
@@ -508,9 +508,9 @@ function Portal() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
             </svg>
           </div>
-          <h3 className="text-xl font-bold text-gray-900 mb-3">Manage Preferences</h3>
+          <h3 className="text-xl font-bold text-gray-900 mb-3">Online Booking</h3>
           <p className="text-gray-600">
-            Control communication channels, notification times, and message types.
+            Let patients book, reschedule, or cancel appointments 24/7 online.
           </p>
         </div>
         <div className="p-8 bg-white rounded-2xl border border-gray-200 text-center">
@@ -519,9 +519,9 @@ function Portal() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
           </div>
-          <h3 className="text-xl font-bold text-gray-900 mb-3">Message History</h3>
+          <h3 className="text-xl font-bold text-gray-900 mb-3">Digital Forms</h3>
           <p className="text-gray-600">
-            View complete history of all communications with timestamps and delivery status.
+            Patients complete intake forms, medical history, and consent documents before arrival.
           </p>
         </div>
         <div className="p-8 bg-white rounded-2xl border border-gray-200 text-center">
@@ -530,9 +530,9 @@ function Portal() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
             </svg>
           </div>
-          <h3 className="text-xl font-bold text-gray-900 mb-3">Consent Management</h3>
+          <h3 className="text-xl font-bold text-gray-900 mb-3">Treatment History</h3>
           <p className="text-gray-600">
-            Update consent preferences and view audit logs of all opt-in/opt-out actions.
+            Patients can view past visits, treatment plans, and upcoming appointment details.
           </p>
         </div>
       </div>
@@ -540,8 +540,8 @@ function Portal() {
       <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-12 border border-gray-200 text-center">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Portal Access</h2>
         <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
-          The client portal provides secure, authenticated access to your account. Sign in to manage 
-          preferences, review message history, and update contact information.
+          The patient portal provides secure, HIPAA-compliant access for your patients. They can book 
+          appointments, complete forms, and manage their communication preferences.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link 
@@ -569,7 +569,7 @@ function Signup() {
         <div className="text-center mb-10">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Create Your Account</h1>
           <p className="text-lg text-gray-600">
-            Get started with AI-powered client communications
+            Get started with AI-powered patient lead management
           </p>
         </div>
         
@@ -601,7 +601,7 @@ function Signup() {
             </div>
             
             <div>
-              <label className="block text-sm font-semibold text-gray-900 mb-2">Company Name</label>
+              <label className="block text-sm font-semibold text-gray-900 mb-2">Practice Name</label>
               <input name="company" className="w-full border-2 border-gray-200 rounded-lg px-4 py-3 focus:border-purple-500 focus:outline-none transition-colors" />
             </div>
             
@@ -615,7 +615,7 @@ function Signup() {
                 <input id="sms-consent" type="checkbox" name="smsConsent" className="mt-1 w-5 h-5 text-purple-600 border-gray-300 rounded focus:ring-purple-500" required />
                 <div className="text-sm text-gray-700">
                   <label htmlFor="sms-consent" className="cursor-pointer font-medium">
-                    I consent to receive transactional service messages from TouchPointPlus at the phone number provided above.
+                    I consent to receive transactional service messages from Vindium at the phone number provided above.
                   </label>
                   <p className="mt-2 text-gray-600">
                     This includes appointment reminders, service updates, and billing confirmations. Message frequency varies. 
@@ -649,7 +649,7 @@ function Login() {
         <div className="text-center mb-10">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Welcome Back</h1>
           <p className="text-lg text-gray-600">
-            Sign in to access your client portal
+            Sign in to access your practice dashboard
           </p>
         </div>
         
@@ -688,8 +688,8 @@ function Privacy() {
         <p className="text-gray-600 mb-8">Last updated: ${new Date().toLocaleDateString()}</p>
         
         <p className="text-gray-700 leading-relaxed mb-6">
-          TouchPointPlus, LLC ("TouchPointPlus", "we", "us") provides AI-powered client communication services 
-          for real estate professionals. This policy explains how we collect, use, and share information.
+          Vindium, LLC ("Vindium", "we", "us") provides AI-powered patient lead management and communication services 
+          for dental practices. This policy explains how we collect, use, and share information.
         </p>
 
         <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Information We Collect</h2>
@@ -721,7 +721,7 @@ function Privacy() {
           <li><strong>Message Types:</strong> Transactional service notifications only (non-promotional)</li>
           <li><strong>Frequency:</strong> Message frequency varies based on service activity</li>
           <li><strong>Opt-Out:</strong> Reply STOP to any message to immediately unsubscribe</li>
-          <li><strong>Help:</strong> Reply HELP for assistance or contact hello@touchpoint.plus</li>
+          <li><strong>Help:</strong> Reply HELP for assistance or contact hello@vindium.com</li>
           <li><strong>Records:</strong> We store opt-in timestamps, consent records, and complete audit trails</li>
         </ul>
 
@@ -736,7 +736,7 @@ function Privacy() {
         <p className="text-gray-700 leading-relaxed">
           We retain information for as long as needed to provide services and as required by law. Message logs, 
           consent records, and audit trails are retained for compliance purposes. You may request deletion of 
-          your data by contacting us at hello@touchpoint.plus.
+          your data by contacting us at hello@vindium.com.
         </p>
 
         <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Your Rights and Choices</h2>
@@ -773,9 +773,9 @@ function Privacy() {
 
         <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Contact Us</h2>
         <div className="text-gray-700 leading-relaxed">
-          <p>TouchPointPlus, LLC</p>
+          <p>Vindium, LLC</p>
           <p>1940 Haste St, Berkeley, CA 94704 Apartment #B</p>
-          <p>Email: hello@touchpoint.plus</p>
+          <p>Email: hello@vindium.com</p>
           <p>Phone: (310) 907-5746</p>
         </div>
       </div>
@@ -791,28 +791,28 @@ function Terms() {
         <p className="text-gray-600 mb-8">Last updated: ${new Date().toLocaleDateString()}</p>
         
         <p className="text-gray-700 leading-relaxed mb-6">
-          By using TouchPointPlus services, you agree to these Terms of Service.
+          By using Vindium services, you agree to these Terms of Service.
         </p>
 
         <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Services</h2>
         <p className="text-gray-700 leading-relaxed">
-          TouchPointPlus provides AI-powered client communication services for real estate professionals, 
-          including appointment reminders, service status updates, billing confirmations, and account notifications.
+          Vindium provides AI-powered patient lead management and communication services for dental practices, 
+          including appointment reminders, recall campaigns, treatment follow-ups, and lead nurturing.
         </p>
 
         <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">SMS/Mobile Terms</h2>
         <div className="bg-blue-50 rounded-xl p-6 border border-blue-200 my-6">
           <h3 className="text-lg font-semibold text-gray-900 mb-4">Program Information</h3>
           <ul className="space-y-3 text-gray-700">
-            <li><strong>Program Name:</strong> TouchPointPlus Client Communications</li>
-            <li><strong>Description:</strong> We send transactional service messages including appointment reminders, 
-            service updates, billing confirmations, and account notifications (non-promotional)</li>
-            <li><strong>Opt-In:</strong> Subscribe via our web forms, client portal, or by providing explicit consent 
-            to a TouchPointPlus representative</li>
+            <li><strong>Program Name:</strong> Vindium Client Communications</li>
+            <li><strong>Description:</strong> We send transactional messages including appointment reminders, 
+            recall notifications, treatment follow-ups, and practice communications (non-promotional)</li>
+            <li><strong>Opt-In:</strong> Subscribe via practice intake forms, patient portal, or by providing explicit consent 
+            at check-in</li>
             <li><strong>Frequency:</strong> Recurring; message frequency varies based on service activity</li>
             <li><strong>Cost:</strong> Message and data rates may apply as charged by your mobile carrier</li>
             <li><strong>Opt-Out:</strong> Reply STOP to any message to cancel at any time</li>
-            <li><strong>Help:</strong> Reply HELP for assistance or contact hello@touchpoint.plus or (310) 907-5746</li>
+            <li><strong>Help:</strong> Reply HELP for assistance or contact hello@vindium.com or (310) 907-5746</li>
           </ul>
         </div>
 
@@ -857,7 +857,7 @@ function Terms() {
 
         <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Limitation of Liability</h2>
         <p className="text-gray-700 leading-relaxed">
-          TouchPointPlus shall not be liable for indirect, incidental, special, consequential, or punitive 
+          Vindium shall not be liable for indirect, incidental, special, consequential, or punitive 
           damages arising from your use of our services.
         </p>
 
@@ -880,9 +880,9 @@ function Terms() {
 
         <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Contact</h2>
         <div className="text-gray-700 leading-relaxed">
-          <p>TouchPointPlus, LLC</p>
+          <p>Vindium, LLC</p>
           <p>1940 Haste St, Berkeley, CA 94704 Apartment #B</p>
-          <p>Email: hello@touchpoint.plus</p>
+          <p>Email: hello@vindium.com</p>
           <p>Phone: (310) 907-5746</p>
         </div>
 
