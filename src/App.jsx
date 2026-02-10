@@ -452,7 +452,7 @@ function Communications() {
               <li>• Explicit checkbox consent required</li>
               <li>• Timestamp and IP address logged</li>
               <li>• Opt-out instructions in every message</li>
-              <li>• STOP keyword processing (automatic unsubscribe)</li>
+              <li>• <strong>STOP</strong> keyword processing (automatic unsubscribe)</li>
               <li>• HELP keyword support</li>
               <li>• Audit trail maintained for compliance</li>
             </ul>
@@ -468,7 +468,7 @@ function Communications() {
             <ul className="space-y-2 text-gray-700">
               <li>Written consent before any messages are sent</li>
               <li>HIPAA-compliant message content (no PHI in SMS)</li>
-              <li>Easy opt-out mechanism (reply STOP)</li>
+              <li>Easy opt-out mechanism (reply <strong>STOP</strong>)</li>
               <li>Encrypted data storage and transmission</li>
               <li>Business Associate Agreements (BAA) available</li>
               <li>Regular compliance audits and HIPAA training</li>
@@ -619,7 +619,7 @@ function Signup() {
                   </label>
                   <p className="mt-2 text-gray-600">
                     This includes appointment reminders, service updates, and billing confirmations. Message frequency varies. 
-                    Message and data rates may apply. Reply STOP to opt out at any time. See our{' '}
+                    Message and data rates may apply. <strong>Reply STOP to opt out at any time.</strong> See our{' '}
                     <Link to="/privacy" className="text-purple-600 hover:underline font-medium">Privacy Policy</Link> and{' '}
                     <Link to="/terms" className="text-purple-600 hover:underline font-medium">Terms of Service</Link>.
                   </p>
@@ -720,8 +720,8 @@ function Privacy() {
           <li><strong>Consent:</strong> We obtain explicit written consent before sending any SMS messages</li>
           <li><strong>Message Types:</strong> Transactional service notifications only (non-promotional)</li>
           <li><strong>Frequency:</strong> Message frequency varies based on service activity</li>
-          <li><strong>Opt-Out:</strong> Reply STOP to any message to immediately unsubscribe</li>
-          <li><strong>Help:</strong> Reply HELP for assistance or contact admin@vindium.net</li>
+            <li><strong>Opt-Out: Reply STOP to any message to immediately unsubscribe. After you send the SMS message "STOP" to us, we will send you an SMS message to confirm that you have been unsubscribed. After this, you will no longer receive SMS messages from us.</strong></li>
+            <li><strong>Help: Reply HELP for assistance or contact admin@vindium.net.</strong></li>
           <li><strong>Records:</strong> We store opt-in timestamps, consent records, and complete audit trails</li>
         </ul>
 
@@ -741,7 +741,7 @@ function Privacy() {
 
         <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Your Rights and Choices</h2>
         <ul className="space-y-2 text-gray-700">
-          <li><strong>Opt-Out:</strong> Reply STOP to any SMS message or contact us to opt out</li>
+          <li><strong>Opt-Out: Reply STOP to any SMS message or contact us to opt out.</strong></li>
           <li><strong>Access:</strong> Request access to your personal data through the client portal</li>
           <li><strong>Correction:</strong> Update your information in the client portal or contact support</li>
           <li><strong>Deletion:</strong> Request deletion of your data (subject to legal retention requirements)</li>
@@ -811,8 +811,8 @@ function Terms() {
             at check-in</li>
             <li><strong>Frequency:</strong> Recurring; message frequency varies based on service activity</li>
             <li><strong>Cost:</strong> Message and data rates may apply as charged by your mobile carrier</li>
-            <li><strong>Opt-Out:</strong> Reply STOP to any message to cancel at any time</li>
-            <li><strong>Help:</strong> Reply HELP for assistance or contact admin@vindium.net or (650) 714-7406</li>
+            <li><strong>Opt-Out: Reply STOP to any message to cancel at any time. After you send the SMS message "STOP" to us, we will send you an SMS message to confirm that you have been unsubscribed. After this, you will no longer receive SMS messages from us.</strong></li>
+            <li><strong>Help: Reply HELP for assistance or contact admin@vindium.net or (650) 714-7406.</strong></li>
           </ul>
         </div>
 
@@ -834,7 +834,7 @@ function Terms() {
           <li>We store your phone number, consent timestamp, and opt-in method for compliance purposes</li>
           <li>We share necessary data with messaging vendors and wireless carriers to deliver messages</li>
           <li>We maintain audit logs of all messages sent and delivery status</li>
-          <li>You may withdraw consent at any time by replying STOP or contacting us</li>
+          <li>You may withdraw consent at any time by replying <strong>STOP</strong> or contacting us</li>
         </ul>
 
         <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Carrier Information</h2>
