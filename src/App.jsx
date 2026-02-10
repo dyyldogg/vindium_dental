@@ -723,7 +723,7 @@ function Privacy() {
           service status updates, and billing confirmations. Key details:
         </p>
         <ul className="space-y-2 text-gray-700">
-          <li><strong>Consent:</strong> We obtain explicit written consent before sending any SMS messages</li>
+          <li><strong>Consent:</strong> We obtain explicit written consent before sending any SMS messages. Consent is not a condition of purchase or use of our services.</li>
           <li><strong>Message Types:</strong> Transactional service notifications only (non-promotional)</li>
           <li><strong>Frequency:</strong> Message frequency varies based on service activity</li>
           <li><strong>Opt-Out:</strong> <strong>Reply STOP to cancel at any time.</strong> After you send the SMS message "STOP" to us, we will send you an SMS message to confirm that you have been unsubscribed.</li>
@@ -817,6 +817,7 @@ function Terms() {
             at check-in</li>
             <li><strong>Frequency:</strong> Recurring; message frequency varies based on service activity</li>
             <li><strong>Cost:</strong> Message and data rates may apply as charged by your mobile carrier</li>
+            <li><strong>Consent:</strong> Consent to receive SMS messages is not a condition of purchase or use of our services. You may decline SMS and still use the Vindium platform.</li>
             <li><strong>Opt-Out:</strong> <strong>Reply STOP to cancel at any time.</strong> After you send the SMS message "STOP" to us, we will send you an SMS message to confirm that you have been unsubscribed.</li>
             <li><strong>Help:</strong> <strong>Reply HELP</strong> for assistance or contact admin@vindium.net or (650) 714-7406.</li>
           </ul>
