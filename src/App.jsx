@@ -611,20 +611,26 @@ function Signup() {
             </div>
 
             <div className="bg-blue-50 rounded-xl p-6 border border-blue-100">
-              <div className="flex items-start gap-4">
-                <input id="sms-consent" type="checkbox" name="smsConsent" className="mt-1 w-5 h-5 text-purple-600 border-gray-300 rounded focus:ring-purple-500" required />
-                <div className="text-sm text-gray-700">
-                  <label htmlFor="sms-consent" className="cursor-pointer font-medium">
-                    I consent to receive transactional service messages from Vindium at the phone number provided above.
-                  </label>
-                  <p className="mt-2 text-gray-600">
-                    This includes appointment reminders, service updates, and billing confirmations. Consent is not a condition of purchase. Message frequency varies. 
-                    Message and data rates may apply. <strong>Reply STOP to cancel at any time.</strong> After you send the SMS message "STOP" to us, we will send you an SMS message to confirm that you have been unsubscribed. <strong>Reply HELP</strong> for assistance. See our{' '}
-                    <Link to="/privacy" className="text-purple-600 hover:underline font-medium">Privacy Policy</Link> and{' '}
-                    <Link to="/terms" className="text-purple-600 hover:underline font-medium">Terms of Service</Link>.
-                  </p>
-                </div>
+              <p className="text-sm font-semibold text-gray-900 mb-4">
+                Would you like to receive SMS notifications?
+              </p>
+              <div className="space-y-3 mb-4">
+                <label className="flex items-center gap-3 p-3 bg-white rounded-lg border-2 border-gray-200 cursor-pointer hover:border-purple-300 transition-colors has-[:checked]:border-purple-500 has-[:checked]:bg-purple-50">
+                  <input type="radio" name="smsConsent" value="yes" className="w-5 h-5 text-purple-600 border-gray-300 focus:ring-purple-500" required />
+                  <span className="text-sm font-medium text-gray-900">Yes, sign me up for SMS</span>
+                </label>
+                <label className="flex items-center gap-3 p-3 bg-white rounded-lg border-2 border-gray-200 cursor-pointer hover:border-gray-300 transition-colors has-[:checked]:border-gray-400 has-[:checked]:bg-gray-50">
+                  <input type="radio" name="smsConsent" value="no" className="w-5 h-5 text-gray-600 border-gray-300 focus:ring-gray-500" />
+                  <span className="text-sm font-medium text-gray-700">No Thanks</span>
+                </label>
               </div>
+              <p className="text-xs text-gray-600 leading-relaxed">
+                By selecting "Yes", you consent to receive transactional service messages from Vindium (e.g. appointment reminders, service updates, and billing confirmations) at the phone number provided above. 
+                Consent is not a condition of purchase. Message frequency varies. 
+                Message and data rates may apply. <strong>Reply STOP to cancel at any time.</strong> After you send the SMS message "STOP" to us, we will send you an SMS message to confirm that you have been unsubscribed. <strong>Reply HELP</strong> for assistance. See our{' '}
+                <Link to="/privacy" className="text-purple-600 hover:underline font-medium">Privacy Policy</Link> and{' '}
+                <Link to="/terms" className="text-purple-600 hover:underline font-medium">Terms of Service</Link>.
+              </p>
             </div>
 
             <button type="submit" className="w-full py-4 text-base font-semibold text-white bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-200">
