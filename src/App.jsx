@@ -618,7 +618,7 @@ function Signup() {
                     I consent to receive transactional service messages from Vindium at the phone number provided above.
                   </label>
                   <p className="mt-2 text-gray-600">
-                    This includes appointment reminders, service updates, and billing confirmations. Message frequency varies. 
+                    This includes appointment reminders, service updates, and billing confirmations. Consent is not a condition of purchase. Message frequency varies. 
                     Message and data rates may apply. <strong>Reply STOP to cancel at any time.</strong> After you send the SMS message "STOP" to us, we will send you an SMS message to confirm that you have been unsubscribed. <strong>Reply HELP</strong> for assistance. See our{' '}
                     <Link to="/privacy" className="text-purple-600 hover:underline font-medium">Privacy Policy</Link> and{' '}
                     <Link to="/terms" className="text-purple-600 hover:underline font-medium">Terms of Service</Link>.
